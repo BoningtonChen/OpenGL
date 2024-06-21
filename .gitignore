@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# Solution Dirs
+/x64
+/.vs/OpenGL/FileContentIndex
