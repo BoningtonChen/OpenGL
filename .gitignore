@@ -32,5 +32,6 @@
 *.app
 
 # Solution Dirs
-/x64
-/.vs/OpenGL/FileContentIndex
+/.x64
+/.vs
+
