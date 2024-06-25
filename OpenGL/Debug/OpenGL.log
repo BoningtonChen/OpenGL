@@ -1,2 +1,3 @@
 ﻿  Application.cpp
+E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\Application.cpp(172,22): warning C4101: “ibo”: 未引用的局部变量
   OpenGL.vcxproj -> E:\VisualStudio\VSProjects\OpenGL\Debug\OpenGL.exe
