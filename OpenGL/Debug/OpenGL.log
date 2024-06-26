@@ -1,5 +1,4 @@
 ﻿  Application.cpp
-E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\Application.cpp(170,22): warning C4101: “ibo”: 未引用的局部变量
-  VertexArray.cpp
+  Shader.cpp
   正在生成代码...
   OpenGL.vcxproj -> E:\VisualStudio\VSProjects\OpenGL\Debug\OpenGL.exe
