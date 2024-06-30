@@ -2,5 +2,7 @@ E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\Application.cpp;E:\VisualStudio\VSP
 E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\IndexBuffer.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\IndexBuffer.obj
 E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\Renderer.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\Renderer.obj
 E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\Shader.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\Shader.obj
+E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\Texture.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\Texture.obj
+E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\vendor\stb_image\stb_image.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\stb_image.obj
 E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\VertexArray.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\VertexArray.obj
 E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\VertexBuffer.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\VertexBuffer.obj

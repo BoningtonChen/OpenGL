@@ -2,6 +2,7 @@
   IndexBuffer.cpp
   Renderer.cpp
   Shader.cpp
+  Texture.cpp
   VertexArray.cpp
   VertexBuffer.cpp
   正在生成代码...
