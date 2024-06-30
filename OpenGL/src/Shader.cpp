@@ -146,5 +146,6 @@ int Shader::GetUniformLocation(const std::string& name)
         std::cout << "Warning: uniform " << name << " doesn't exist! \n";
         
     m_UniformLocationCache[name] = location;
+
     return location;
 }

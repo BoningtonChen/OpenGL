@@ -5,6 +5,10 @@ E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\Shader.cpp;E:\VisualStudio\VSProjec
 E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\Texture.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\Texture.obj
 E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\vendor\glm\detail\glm.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\glm.obj
 E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\vendor\glm\glm.cppm;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\glm.cppm.obj
+E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\vendor\imgui\imgui.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\imgui.obj
+E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\vendor\imgui\imgui_demo.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\imgui_demo.obj
+E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\vendor\imgui\imgui_draw.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\imgui_draw.obj
+E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\vendor\imgui\imgui_impl_glfw_gl3.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\imgui_impl_glfw_gl3.obj
 E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\vendor\stb_image\stb_image.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\stb_image.obj
 E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\VertexArray.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\VertexArray.obj
 E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\VertexBuffer.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\VertexBuffer.obj
