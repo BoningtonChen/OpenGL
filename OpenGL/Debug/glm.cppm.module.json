@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "Debug\\glm.cppm.obj",
+            "outputs": [
+                "E:\\VisualStudio\\VSProjects\\OpenGL\\OpenGL\\Debug\\vc143.pdb",
+                "Debug\\",
+                "E:\\VisualStudio\\VSProjects\\OpenGL\\OpenGL\\Debug\\glm.cppm.ifc"
+            ],
+            "provides": [
+                {
+                    "logical-name": "glm",
+                    "source-path": "e:\\visualstudio\\vsprojects\\opengl\\opengl\\src\\vendor\\glm\\glm.cppm",
+                    "is-interface": true
+                }
+            ],
+            "requires": []
+        }
+    ]
+}
