@@ -1,0 +1,1106 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26819",
+          "message": {
+            "text": "switch 标签之间的尾随 fallthrough (es.78)。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                },
+                "region": {
+                  "startLine": 2095,
+                  "startColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbtt__run_charstring",
+                  "decoratedName": "?stbtt__run_charstring@@YAHPBUstbtt_fontinfo@@HPAUstbtt__csctx@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "正在从 \"buffer\" 读取无效数据。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                },
+                "region": {
+                  "startLine": 3874,
+                  "startColumn": 10,
+                  "endLine": 3874,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbtt__h_prefilter",
+                  "decoratedName": "?stbtt__h_prefilter@@YAXPAEHHHI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3822,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "“buffer”是一个 8 字节数组"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3823,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3824,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3825,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "“buffer”是“memset”中的输出(在 e:\\visualstudio\\visual studio enterprise 2022\\vc\\tools\\msvc\\14.40.33807\\include\\vcruntime_string.h:63 处声明)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3826,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3826,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "进入此循环(假定“j<h”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3827,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3828,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3829,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "“buffer”是“memset”中的输出(在 e:\\visualstudio\\visual studio enterprise 2022\\vc\\tools\\msvc\\14.40.33807\\include\\vcruntime_string.h:63 处声明)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3831,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3834,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "假定 switch (“kernel_width”)解析为 case 2: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3835,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3836,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3836,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3837,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3838,
+                            "startColumn": 60
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3839,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3836,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3836,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3872,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "进入此循环(假定“i<w”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3873,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "进入此循环(假定“!!((pixels[i]==0))”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3874,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3875,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3872,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3872,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "继续此循环(假定“i<w”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3873,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "继续此循环(假定“!!((pixels[i]==0))”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3874,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "从“buffer[2]”中读取无效(可读范围是 0 到 1)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "正在从 \"buffer\" 读取无效数据。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                },
+                "region": {
+                  "startLine": 3936,
+                  "startColumn": 10,
+                  "endLine": 3936,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "stbtt__v_prefilter",
+                  "decoratedName": "?stbtt__v_prefilter@@YAXPAEHHHI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3884,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "“buffer”是一个 8 字节数组"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3885,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3886,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3887,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "“buffer”是“memset”中的输出(在 e:\\visualstudio\\visual studio enterprise 2022\\vc\\tools\\msvc\\14.40.33807\\include\\vcruntime_string.h:63 处声明)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3888,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3888,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "进入此循环(假定“j<w”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3889,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3890,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3891,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "“buffer”是“memset”中的输出(在 e:\\visualstudio\\visual studio enterprise 2022\\vc\\tools\\msvc\\14.40.33807\\include\\vcruntime_string.h:63 处声明)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3893,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3896,
+                            "startColumn": 15
+                          }
+                        },
+                        "message": {
+                          "text": "假定 switch (“kernel_width”)解析为 case 2: "
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3897,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3898,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3898,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3899,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3900,
+                            "startColumn": 60
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3901,
+                            "startColumn": 42
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3898,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3898,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3934,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "进入此循环(假定“i<h”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3935,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "进入此循环(假定“<分支条件>”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3936,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3937,
+                            "startColumn": 36
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3934,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3934,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "继续此循环(假定“i<h”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3935,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "继续此循环(假定“<分支条件>”)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+                          },
+                          "region": {
+                            "startLine": 3936,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "从“buffer[2]”中读取无效(可读范围是 0 到 1)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6255",
+          "message": {
+            "text": "`_alloca` 通过引发堆栈溢出异常来指示失败。应考虑改用 _malloca。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/imgui_draw.cpp"
+                },
+                "region": {
+                  "startLine": 641,
+                  "startColumn": 41,
+                  "endLine": 641,
+                  "endColumn": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImDrawList::AddPolyline",
+                  "decoratedName": "?AddPolyline@ImDrawList@@QAEXPBUImVec2@@HI_NM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6255",
+          "message": {
+            "text": "`_alloca` 通过引发堆栈溢出异常来指示失败。应考虑改用 _malloca。"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/imgui_draw.cpp"
+                },
+                "region": {
+                  "startLine": 820,
+                  "startColumn": 41,
+                  "endLine": 820,
+                  "endColumn": 63
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ImDrawList::AddConvexPolyFilled",
+                  "decoratedName": "?AddConvexPolyFilled@ImDrawList@@QAEXPBUImVec2@@HI@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.40.33811.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/stb_truetype.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d3a8a2306c1d680d1cf40013ccbd2bd47e469e6c5a6dd36a86e48118f65c9168"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///E:/VisualStudio/VSProjects/OpenGL/OpenGL/src/vendor/imgui/imgui_draw.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "5f27d73f04d28f05a478b37917896468b08c64ff7f36db185ed434c388ecce6e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/visualstudio/vsprojects/opengl/opengl/src/vendor/imgui/imgui.h"
+          },
+          "hashes": {
+            "sha-256": "70af4ded85a80973531a9875f333934f29e4cfec23f8b9596e4cefa09e8e643c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/visualstudio/vsprojects/opengl/opengl/src/vendor/imgui/imconfig.h"
+          },
+          "hashes": {
+            "sha-256": "bfb609718ffbc850b3ad1285adcd1d180f1d8f64c565cd14b5acebd9ab8a52af"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/visualstudio/vsprojects/opengl/opengl/src/vendor/imgui/imgui_internal.h"
+          },
+          "hashes": {
+            "sha-256": "a208f6261a6f48841c3efd810538e59f4a72412dbf97ca34779bee8c7f5271aa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/visualstudio/vsprojects/opengl/opengl/src/vendor/imgui/stb_textedit.h"
+          },
+          "hashes": {
+            "sha-256": "f1c3c69bcadc8306172cc2f9d4678a4ea6c787996a38bb86135b12163a07d6cc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///e:/visualstudio/vsprojects/opengl/opengl/src/vendor/imgui/stb_rect_pack.h"
+          },
+          "hashes": {
+            "sha-256": "947b8678b701ea1a2220772b4fa1e40ef25b177f75012650538c2bff2cc6461d"
+          }
+        }
+      ]
+    }
+  ]
+}

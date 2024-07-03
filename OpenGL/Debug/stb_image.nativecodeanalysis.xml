@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\vendor\stb_image\</FILEPATH>
+      <FILENAME>stb_image.h</FILENAME>
+      <LINE>5822</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>26819</DEFECTCODE>
+    <DESCRIPTION>switch 标签之间的尾随 fallthrough (es.78)。</DESCRIPTION>
+    <FUNCTION>stbi__tga_get_comp</FUNCTION>
+    <DECORATED>?stbi__tga_get_comp@@YAHHHPAH@Z</DECORATED>
+    <FUNCLINE>5814</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\vendor\stb_image\</FILEPATH>
+      <FILENAME>stb_image.h</FILENAME>
+      <LINE>7071</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>函数使用堆叠的 "34968" 字节。请考虑将一些数据移动到堆。</DESCRIPTION>
+    <FUNCTION>stbi__load_gif_main</FUNCTION>
+    <DECORATED>?stbi__load_gif_main@@YAPAXPAUstbi__context@@PAPAHPAH222H@Z</DECORATED>
+    <FUNCLINE>7071</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\vendor\stb_image\</FILEPATH>
+      <FILENAME>stb_image.h</FILENAME>
+      <LINE>7158</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>函数使用堆叠的 "34932" 字节。请考虑将一些数据移动到堆。</DESCRIPTION>
+    <FUNCTION>stbi__gif_load</FUNCTION>
+    <DECORATED>?stbi__gif_load@@YAPAXPAUstbi__context@@PAH11HPAUstbi__result_info@@@Z</DECORATED>
+    <FUNCLINE>7158</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\vendor\stb_image\</FILEPATH>
+      <FILENAME>stb_image.h</FILENAME>
+      <LINE>7261</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26819</DEFECTCODE>
+    <DESCRIPTION>switch 标签之间的尾随 fallthrough (es.78)。</DESCRIPTION>
+    <FUNCTION>stbi__hdr_convert</FUNCTION>
+    <DECORATED>?stbi__hdr_convert@@YAXPAMPAEH@Z</DECORATED>
+    <FUNCLINE>7242</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\vendor\stb_image\</FILEPATH>
+      <FILENAME>stb_image.h</FILENAME>
+      <LINE>7264</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>26819</DEFECTCODE>
+    <DESCRIPTION>switch 标签之间的尾随 fallthrough (es.78)。</DESCRIPTION>
+    <FUNCTION>stbi__hdr_convert</FUNCTION>
+    <DECORATED>?stbi__hdr_convert@@YAXPAMPAEH@Z</DECORATED>
+    <FUNCLINE>7242</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

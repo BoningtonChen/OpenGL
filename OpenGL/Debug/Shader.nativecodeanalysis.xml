@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\</FILEPATH>
+      <FILENAME>Shader.cpp</FILENAME>
+      <LINE>48</LINE>
+      <COLUMN>47</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>正在从 "ss" 读取无效数据。</DESCRIPTION>
+    <FUNCTION>Shader::ParseShader</FUNCTION>
+    <DECORATED>?ParseShader@Shader@@AAE?AUShaderProgramSource@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>22</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\</FILEPATH>
+        <FILENAME>Shader.cpp</FILENAME>
+        <LINE>24</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\</FILEPATH>
+        <FILENAME>Shader.cpp</FILENAME>
+        <LINE>26</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\</FILEPATH>
+        <FILENAME>Shader.cpp</FILENAME>
+        <LINE>33</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\</FILEPATH>
+        <FILENAME>Shader.cpp</FILENAME>
+        <LINE>34</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“ss”是一个 2 元素数组(352 字节)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\</FILEPATH>
+        <FILENAME>Shader.cpp</FILENAME>
+        <LINE>35</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>“type”等于 -1</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\</FILEPATH>
+        <FILENAME>Shader.cpp</FILENAME>
+        <LINE>37</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>进入此循环(假定“getline(stream, line)-&gt;._N()”)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\</FILEPATH>
+        <FILENAME>Shader.cpp</FILENAME>
+        <LINE>39</LINE>
+        <COLUMN>33</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>跳过此分支(假定“line.find("#shader", 0)!=npos”为 false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\</FILEPATH>
+        <FILENAME>Shader.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>47</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>“ss”是“std::&lt;&lt;”中的输出(在 e:\visualstudio\visual studio enterprise 2022\vc\tools\msvc\14.40.33807\include\xstring:5230 处声明)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\</FILEPATH>
+        <FILENAME>Shader.cpp</FILENAME>
+        <LINE>48</LINE>
+        <COLUMN>47</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>从“ss[-1]”中读取无效(可读范围是 0 到 1)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\</FILEPATH>
+      <FILENAME>Shader.cpp</FILENAME>
+      <LINE>72</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>`_alloca` 通过引发堆栈溢出异常来指示失败。应考虑改用 _malloca。</DESCRIPTION>
+    <FUNCTION>Shader::CompileShader</FUNCTION>
+    <DECORATED>?CompileShader@Shader@@AAEIIABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>58</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
