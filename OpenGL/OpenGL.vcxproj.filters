@@ -483,6 +483,9 @@
     <None Include="src\vendor\glm\gtx\wrap.inl">
       <Filter>头文件</Filter>
     </None>
+    <None Include="..\.gitattributes" />
+    <None Include="..\.gitignore" />
+    <None Include="..\README.md" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Renderer.h">
@@ -1424,6 +1427,7 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="Dependencies\GLEW\LICENSE.txt" />
+    <Text Include="..\LICENSE.txt" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\textures\Bonington_Logo_black.png">
