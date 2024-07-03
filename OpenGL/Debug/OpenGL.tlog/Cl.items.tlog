@@ -2,6 +2,7 @@ E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\Application.cpp;E:\VisualStudio\VSP
 E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\IndexBuffer.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\IndexBuffer.obj
 E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\Renderer.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\Renderer.obj
 E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\Shader.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\Shader.obj
+E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\tests\TestClearColor.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\TestClearColor.obj
 E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\Texture.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\Texture.obj
 E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\vendor\glm\detail\glm.cpp;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\glm.obj
 E:\VisualStudio\VSProjects\OpenGL\OpenGL\src\vendor\glm\glm.cppm;E:\VisualStudio\VSProjects\OpenGL\OpenGL\Debug\glm.cppm.obj
